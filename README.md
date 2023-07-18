@@ -2,17 +2,17 @@
 
 ## Introduction
 
-- The system of this project uses a non-invasive method to analyze the state of the user's electrical appliances in real time. The analysis interface includes the appliances currently in use, real-time total power, total duration of use for each appliance, and total power consumption.
+- The system of this project uses a non-intrusive method to analyze the state of the user's electrical appliances in real time. The analysis interface includes the appliances currently in use, real-time total power, total duration of use for each appliance, and total power consumption.
 
 - In terms of hardware, the current and voltage transformer is used to sample according to the fixed ratio and then the phase is adjusted by capacitance and sent to the analysis and identification module. The module adopts the domestic multi-functional and high-precision three-phase electric energy measurement chip HT7038, which calculates the parameters of active power and reactive power and then sends them to the single chip microcomputer for analysis. In order to better test the function, the team made two electrical appliances with similar characteristics for analysis and identification.
 
-- In the software, the K-nearest neighbor algorithm (KNN) is selected on the identification of electrical appliances to identify the current electrical appliance combination, and then the cumulative use time, cumulative power consumption, real-time total power and electrical appliance type are calculated through the single-chip microcomputer timing and other functions to send to the serial screen and display, so as to achieve non-invasive electrical appliance monitoring function.
+- In the software, the K-nearest neighbor algorithm (KNN) is selected on the identification of electrical appliances to identify the current electrical appliance combination, and then the cumulative use time, cumulative power consumption, real-time total power and electrical appliance type are calculated through the single-chip microcomputer timing and other functions to send to the serial screen and display, so as to achieve non-intrusive electrical appliance monitoring function.
 
 ## Background
 
-- Non-invasive electrical appliance monitoring is an intelligent technology for home, commercial or industrial environments, designed to monitor and analyze the energy consumption and working status of electrical appliances in real time, providing effective power management and optimization solutions. Traditional power monitoring methods usually require circuit intervention and installation of sensors, while non-invasive electrical appliance monitoring uses non-contact methods for data collection and analysis.
+- Non-intrusive electrical appliance monitoring is an intelligent technology for home, commercial or industrial environments, designed to monitor and analyze the energy consumption and working status of electrical appliances in real time, providing effective power management and optimization solutions. Traditional power monitoring methods usually require circuit intervention and installation of sensors, while non-intrusive electrical appliance monitoring uses non-contact methods for data collection and analysis.
 
-- With the increasing cost of energy and the increasing concern about energy consumption, the monitoring of electrical appliances has become an important technical requirement. Through non-invasive appliance monitoring, users can obtain detailed information about the actual energy consumption, operating status and usage patterns of appliances, thereby improving energy efficiency, reducing energy costs and reducing environmental impact.
+- With the increasing cost of energy and the increasing concern about energy consumption, the monitoring of electrical appliances has become an important technical requirement. Through non-intrusive appliance monitoring, users can obtain detailed information about the actual energy consumption, operating status and usage patterns of appliances, thereby improving energy efficiency, reducing energy costs and reducing environmental impact.
 
 ## Engineering Goal
 
