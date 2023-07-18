@@ -21,7 +21,7 @@
 - Improve safety and reliability: Electrical monitoring systems can help enterprises improve the safety and reliability of electrical equipment and reduce potential safety risks and accidents. This helps keep employees and assets safe and avoid downtime and losses due to electrical failures.
 
 ## Project Pipeline
-![Uploading 图片.png…]()
+![图片](https://github.com/HsAlex20/Electrical-appliance-monitoring-system/assets/111621662/2e6f63b5-5546-4781-a20a-84d0604df377)
 
 ## Summary of Procedure
 
